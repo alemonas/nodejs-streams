@@ -12,7 +12,10 @@ const server = http.createServer((req, res) => {
 		let size = 0
 		return through(function(buf, enc, next) {
 			size += buf.length
-			if (size > 20) next(null, null)
+			if (size > 20) {
+				res.end('TOOBIG\n')
+				//next(null, null)
+			}
 			else next(null, buf)
 		})
 	}
