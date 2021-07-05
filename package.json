@@ -1,0 +1,11 @@
+{
+  "name": "nodejs-streams",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:alemonas/nodejs-streams.git",
+  "author": "Alejandro Monasterios <alejandro.monasterios@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "through2": "^4.0.2"
+  }
+}
