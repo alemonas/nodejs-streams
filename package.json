@@ -6,6 +6,7 @@
   "author": "Alejandro Monasterios <alejandro.monasterios@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "concat-stream": "^2.0.0",
     "through2": "^4.0.2"
   }
 }
